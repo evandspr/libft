@@ -6,7 +6,7 @@
 /*   By: edesprez <edesprez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/21 10:52:25 by edesprez          #+#    #+#             */
-/*   Updated: 2024/11/28 12:29:22 by edesprez         ###   ########.fr       */
+/*   Updated: 2025/04/16 17:19:28 by edesprez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ char			*ft_strchr(const char *str, int c);
 char			*ft_strdup(const char *src);
 size_t			ft_strlcat(char *dest, const char *src, size_t size);
 size_t			ft_strlcpy(char *dest, const char *src, size_t size);
-size_t			ft_strlen(const char *str);
+int			ft_strlen(const char *str);
 char			*ft_strnstr(const char *big, const char *little, size_t len);
 char			*ft_strrchr(const char *str, int c);
 int				ft_tolower(int c);

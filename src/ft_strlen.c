@@ -6,13 +6,13 @@
 /*   By: edesprez <edesprez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:40:38 by edesprez          #+#    #+#             */
-/*   Updated: 2024/11/12 14:42:12 by edesprez         ###   ########.fr       */
+/*   Updated: 2025/04/16 17:19:13 by edesprez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-size_t	ft_strlen(const char *str)
+int	ft_strlen(const char *str)
 {
 	size_t	i;
 

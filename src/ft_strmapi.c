@@ -6,7 +6,7 @@
 /*   By: edesprez <edesprez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/03 14:57:51 by edesprez          #+#    #+#             */
-/*   Updated: 2024/12/03 15:12:09 by edesprez         ###   ########.fr       */
+/*   Updated: 2025/04/16 17:23:13 by edesprez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	dest = malloc(sizeof(char) *(ft_strlen(s) + 1));
 	if (!dest || !s)
 		return (0);
-	while (ft_strlen(s) != (size_t)i)
+	while (ft_strlen(s) != i)
 	{
 		dest[i] = f(i, s[i]);
 		i++;

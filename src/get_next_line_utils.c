@@ -6,7 +6,7 @@
 /*   By: edesprez <edesprez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/19 15:59:14 by edesprez          #+#    #+#             */
-/*   Updated: 2025/04/06 22:51:53 by edesprez         ###   ########.fr       */
+/*   Updated: 2025/05/03 03:25:45 by edesprez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,18 +39,6 @@ char	*ft_strdup(const char *src)
 		dup[i] = '\0';
 	}
 	return (dup);
-}
-
-size_t	ft_strlen(const char *str)
-{
-	size_t	i;
-
-	i = 0;
-	if (!str)
-		return (0);
-	while (str[i])
-		i++;
-	return (i);
 }
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)

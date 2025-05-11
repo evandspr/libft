@@ -6,7 +6,7 @@
 /*   By: edesprez <edesprez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/05 11:42:09 by edesprez          #+#    #+#             */
-/*   Updated: 2025/04/06 22:51:27 by edesprez         ###   ########.fr       */
+/*   Updated: 2025/05/03 03:26:12 by edesprez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,9 @@
 # include <fcntl.h>
 # include <stdio.h>
 # include <unistd.h>
+# include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len);
-size_t	ft_strlen(const char *str);
 char	*ft_strdup(const char *src);
 char	*ft_strjoin(const char *s1, const char *s2);
 char	*get_next_line(int fd);

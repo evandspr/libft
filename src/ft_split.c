@@ -6,7 +6,7 @@
 /*   By: edesprez <edesprez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/28 12:04:24 by edesprez          #+#    #+#             */
-/*   Updated: 2025/04/06 19:58:47 by edesprez         ###   ########.fr       */
+/*   Updated: 2025/04/16 17:22:44 by edesprez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static	int	count_words(char *s, char c)
 	nb_mots = 0;
 	while (s[i])
 	{
-		if (s[i] == c && s[i + 1] != c && (size_t)i != ft_strlen(s) - 1)
+		if (s[i] == c && s[i + 1] != c && i != ft_strlen(s) - 1)
 			nb_mots++;
 		i++;
 	}

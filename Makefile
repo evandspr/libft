@@ -27,17 +27,11 @@ all: $(NAME)
 	@$(CC) $(CFLAGS) -I $(INCLUDES) -c -o $@ $<
 
 $(NAME): $(OBJ)
-	@echo "$(GREEN)✧ Creating libft library... ✧$(RESET)"
 	@ar rc $(NAME) $(OBJ)
-
 clean:
-	@echo "$(RED)🗑️ clean done 🗑️$(RESET)"
 	@rm -f $(OBJ)
-
 fclean: clean
 	@rm -f $(NAME)
-	@echo "$(RED)🗑️ fclean done 🗑️$(RESET)"
-
 re: fclean all
 
 .PHONY: all clean fclean re

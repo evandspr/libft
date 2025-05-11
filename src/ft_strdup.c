@@ -6,7 +6,7 @@
 /*   By: edesprez <edesprez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 17:06:03 by edesprez          #+#    #+#             */
-/*   Updated: 2024/11/21 10:38:20 by edesprez         ###   ########.fr       */
+/*   Updated: 2025/05/08 19:58:19 by edesprez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*ft_strdup(const char *src)
 			dup[i] = src[i];
 			i++;
 		}
-	dup[i] = '\0';
+		dup[i] = '\0';
 	}
 	return (dup);
 }
